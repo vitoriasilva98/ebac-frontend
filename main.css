@@ -76,6 +76,7 @@ section ul li span {
 
 .img-beach {
     margin-right: 32px;
+    border-radius: 5px;
 }
 
 #contact {
@@ -103,7 +104,7 @@ section ul li span {
 
 form {
     padding: 15px;
-    background-color: #182C61;
+    background-color: #2b879e;
     border-radius: 5px;
 }
 
@@ -111,7 +112,7 @@ form input,
 form textarea,
 form button {
     display: block;
-    width: 620px;
+    width: 420px;
     margin-bottom: 8px;
     padding: 8px;
     border-radius: 5px;
@@ -136,4 +137,43 @@ form button {
     cursor: pointer;
     font-family: DynaPuff;
     font-size: 16px;
+}
+
+video {
+    width: 640px;
+    height: 365px;
+    border-radius: 5px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.social-links a img{
+    height: 32px;
+}
+
+.address {
+    margin: 15px 0;
+}
+.address p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.address img {
+    height: 24px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #2b879e;
+    color: #f2e8c4;
+    padding: 16px 0;
+    font-family: Nunito;
 }
