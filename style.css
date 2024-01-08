@@ -26,7 +26,8 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
-#sobre-o-restaurante, #cardapio {
+#sobre-o-restaurante,
+#cardapio {
     background-color: #ffeae6;
 }
 
@@ -34,11 +35,21 @@ body {
     color: #e15f41;
 }
 
-.nav-cardapio .nav-link.active {
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
     background-color: #e15f41;
     color: white;
 }
 
 .nav-cardapio .nav-link:hover {
     color: #e15f41;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
 }
