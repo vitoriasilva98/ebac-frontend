@@ -1,0 +1,24 @@
+{
+  "name": "ebac-frontend",
+  "version": "1.0.0",
+  "description": "Atividades desenvolvidas durante o curso de Front-end da EBAC",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoriasilva98/ebac-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoriasilva98/ebac-frontend/issues"
+  },
+  "homepage": "https://github.com/vitoriasilva98/ebac-frontend#readme",
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
