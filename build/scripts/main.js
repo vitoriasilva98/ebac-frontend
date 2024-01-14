@@ -1,0 +1,1 @@
+function olaFulano(o){console.log(`Olá ${o}, tenham um bom dia!`)}olaFulano("Vitória");
